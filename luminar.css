@@ -1,0 +1,27 @@
+img{
+    width: 250px;
+}
+
+
+
+
+
+#navbarSupportedContent ul li::after{
+    content: '';
+    width:0%;
+    height:2px;
+    background-color:blue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}#navbarSupportedContent ul li:hover::after{
+    
+    width:100%;
+
+}
+#navbarSupportedContent ul li a:hover::after{
+    background-color:red;
+
+}
+  
